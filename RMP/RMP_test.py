@@ -4,8 +4,10 @@ import RMP
 if __name__ == '__main__':
     # Test 1
     print("Test 1")
-    professor = RMP.rate_my_prof("Tyler Bletsch")
-    professor.retrieveRMPInfo()
+    professor = RMP.rate_my_prof("Tyler Bletsch") # Only input is the professor's name
+    professor.retrieveRMPInfo() # Retrieve the professor's information
+    
+    # Example of how to access the professor's information
     print("Name: %s" % professor.name)
     print("Department: %s" % professor.department)
     print("School: %s" % professor.school)
